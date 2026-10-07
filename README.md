@@ -3,3 +3,4 @@ Repozitář pro účely výuky předmětu IS
 
 Dnes 7.10.2026 jsme vyklonovali repozitář z githubu na lokální počítač (lokál).
 
+Tohle je změna, která je provedena přímo v GitHubu 7.10.2026

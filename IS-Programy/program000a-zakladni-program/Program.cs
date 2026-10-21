@@ -42,9 +42,8 @@ while(again.ToLower() == "a" )
     // Console.WriteLine($"První číslo: {first}");
     // Console.WriteLine($"Poslední číslo: {last}");
     // Console.WriteLine($"Diference (krok): {step}");
-    Console.WriteLine($"První číslo: {first}");
-    Console.WriteLine($"Poslední číslo: {last}");
-    Console.WriteLine($"Diference (krok): {step}");
+    Console.WriteLine($"První číslo: {aaa}");
+    Console.WriteLine($"Poslední číslo: {bbb}");
     Console.WriteLine("=============================");
     Console.WriteLine();
 

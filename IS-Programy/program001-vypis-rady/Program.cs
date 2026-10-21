@@ -19,7 +19,14 @@ while (again.ToLower() == "a")
         Console.Write("Nezadali jste celé číslo. Zadejte první číslo řady znovu: ");   
     }
 
-    //  Načtení poslední hodnoty
+    //Načtení počáteční hodnoty řady
+    //Console.Write("Zadejte první číslo řady (celé číslo): ");
+    //int first;
+    //while (!int.TryParse(Console.ReadLine(), out first)) {
+    //    Console.Write("Nezadali jste celé číslo. Zadejte první číslo řady znovu: ");   
+    //}
+
+    
     Console.Write("Zadejte poslední číslo řady (celé číslo): ");
     int last;
     while (!int.TryParse(Console.ReadLine(), out last)) {
@@ -29,13 +36,17 @@ while (again.ToLower() == "a")
     //  Načtení siference
     Console.Write("Zadejte diferenci (kladné celé číslo): ");
     int step;
-    while (!int.TryParse(Console.ReadLine(), out step)) || step <= 0 {
-        Console.Write("Nezadali jste kladné celé číslo. Zadejte poslední číslo řady znovu: ");   
-    }
+    while (!int.TryParse(Console.ReadLine(), out step) || step <= 0)
+{
+    Console.Write("Nezadali jste kladné celé číslo. Zadejte diferenci znovu: ");
+}
 
     // Dotaz směrem k uživateli na opakování
     Console.WriteLine();
     Console.Write("Pro opakování programu stiskněte klávesu a. Následně potvrďte klávesou Enter: .");
     again = Console.ReadLine() ?? "";    
+
+
+
 
 }
